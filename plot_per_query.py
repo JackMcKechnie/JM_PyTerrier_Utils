@@ -73,6 +73,6 @@ def plot_per_query(df, save_path = None, quality = "medium"):
     plt.tight_layout()
     
     if save_path:
-        plt.savefig(save_path, dpi = dpi_val)
+        plt.savefig(f"{save_path}.png", dpi = dpi_val)
 
     return plt.show()
